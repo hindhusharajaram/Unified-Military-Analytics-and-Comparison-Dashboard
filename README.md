@@ -87,14 +87,14 @@ Unified Military Analytics and Comparison Dashboard
 │
 ├── 📄 README.md
 │
-├── 📂 milestone_01             
+├── 📂 Milestone_01             
 │   ├── Milestone_01_Data_Preprocessing.ipynb
 │   ├── README.md
 │   └── data/
 │       └── military_raw_data.csv
 |       └── military_clean_data.csv
 │
-├── 📂 milestone_02             
+├── 📂 Milestone_02             
 │   ├── Milestone_02_KPI_Engineering.ipynb
 │   ├── README.md
 │   └── data/
