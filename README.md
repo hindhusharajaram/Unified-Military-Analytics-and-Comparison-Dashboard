@@ -142,3 +142,60 @@ block-beta
 | **Action:** Calculated Power Gap, Assets/Capita, & Budget/GDP ratio. | **Action:** Drafted layouts for Quick Stats & Nation Overview. |
 | **Tech:** `Power BI` | **Tech:** `Figma` / `Sketch` |
 | **Output:** `military_final.csv` | **Output:** Dashboard Storyboard |
+
+## Milestone 03: Dashboard Development
+
+### Objective
+Build interactive dashboards to explore and compare global military power.
+
+---
+
+### Overview
+
+| Component      | Description |
+|----------------|------------|
+| Visualization  | Key military indicators |
+| Filters        | Region, Continent, Alliance |
+| Insights       | Overview + detailed analysis |
+| Integration    | Unified dashboard system |
+
+---
+
+### Dashboards
+
+| Dashboard            | Key Features |
+|---------------------|-------------|
+| Quick Stats          | Top 10 Power Index, KPI cards, filters |
+| Nation Overview      | Country selector, tooltips, detailed metrics |
+| Compare Powers       | 2-country comparison, dynamic parameters |
+| Coalition Builder    | Multi-country selection, combined strength analysis, alliance insights |
+
+---
+
+### Workflow
+
+```mermaid
+flowchart LR
+    A[Dataset] --> B[Data Modeling]
+    B --> C[Dashboard Design]
+    C --> D[Quick Stats]
+    C --> E[Nation Overview]
+    C --> F[Compare Powers]
+    C --> H[Coalition Builder]
+    D --> G[User Interaction]
+    E --> G
+    F --> G
+    H --> G
+```
+
+## Future Enhancements
+
+Future improvements for this project include integrating real-time data updates through APIs or automated scraping pipelines to ensure up-to-date insights. Advanced analytics can be incorporated by adding predictive modeling techniques to forecast future military strength trends. Geospatial visualization will enhance analysis by introducing interactive maps for regional and global insights. The dashboards can be deployed as web applications using Streamlit or Dash to improve accessibility.
+
+## Conclusion
+
+The Unified Military Analytics & Comparison Dashboard successfully transforms complex global defense data into an interactive, user-friendly analytical system. 
+
+By integrating data scraping (BeautifulSoup), processing (Pandas), and visualization (Power BI), the project delivers a seamless pipeline from raw data to actionable insights. The four dashboards—Quick Stats, Nation Overview, Compare Powers, and Coalition Builder—enable users to explore military strength, analyze country-specific metrics, and simulate strategic alliances effectively.
+
+Overall, the system enhances decision-making by presenting military intelligence in a clear, comparative, and interactive format.
