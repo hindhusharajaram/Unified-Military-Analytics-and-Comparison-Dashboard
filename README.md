@@ -98,7 +98,6 @@ Unified Military Analytics and Comparison Dashboard
 ### Milestone 01: Data Collection & Preparation
 > **Goal:** Build a robust data pipeline that extracts raw military intelligence from the web and transforms it into a high-quality, analysis-ready dataset.
 
-
 | Module | Focus | Primary Tools |
 | :--- | :--- | :--- |
 | **01. Scraping** | Web Extraction & Raw Storage | `BeautifulSoup`, `Requests` |
@@ -135,7 +134,6 @@ block-beta
   style k6 fill:#004a99,stroke:#ffffff,color:#ffffff
 ```
 
-
 | **KPI Engineering** | **Prototyping** |
 | :--- | :--- |
 | **Focus:** Metric Derivation & Metadata | **Focus:** Wireframing & UX Planning |
@@ -148,8 +146,6 @@ block-beta
 ### Objective
 Build interactive dashboards to explore and compare global military power.
 
----
-
 ### Overview
 
 | Component      | Description |
@@ -159,8 +155,6 @@ Build interactive dashboards to explore and compare global military power.
 | Insights       | Overview + detailed analysis |
 | Integration    | Unified dashboard system |
 
----
-
 ### Dashboards
 
 | Dashboard            | Key Features |
@@ -169,8 +163,6 @@ Build interactive dashboards to explore and compare global military power.
 | Nation Overview      | Country selector, tooltips, detailed metrics |
 | Compare Powers       | 2-country comparison, dynamic parameters |
 | Coalition Builder    | Multi-country selection, combined strength analysis, alliance insights |
-
----
 
 ### Workflow
 
